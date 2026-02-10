@@ -68,6 +68,7 @@ plt.ylabel(r'$\frac{dT}{dt}$ $^{\text{o}}\text{C/s}$')
 - **Purpose**: Labels the vertical axis with the mathematical expression for rate of temperature change
 - **`r'$\frac{dT}{dt}$'`**: LaTeX notation for the derivative of temperature with respect to time (dT/dt)
 - **`$^{\text{o}}\text{C/s}$'`**: Unit notation for degrees Celsius per second (°C/s)
+  - Note: The code uses `\text{o}` as a superscript for the degree symbol. A more standard LaTeX representation would be `\circ` (e.g., `$^{\circ}\text{C/s}$`)
 - This indicates the plot shows how quickly temperature is changing over time
 
 ## Summary
