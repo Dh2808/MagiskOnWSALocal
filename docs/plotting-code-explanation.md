@@ -100,10 +100,11 @@ plt.ylabel(r'$\frac{dT}{dt}$ $^{\text{o}}\text{C/s}$')
   - `dT`: Change in temperature
   - `dt`: Change in time
 - `$^{\text{o}}\text{C/s}$`: Units in superscript and text mode
-  - `^{\text{o}}`: Superscript "o" attempting to represent a degree symbol (Note: The standard LaTeX degree symbol is `^\circ`)
+  - `^{\text{o}}`: Superscript "o" used here to represent a degree symbol
   - `\text{C/s}`: Text mode "C/s" (Celsius per second)
 - **Result**: Displays as "dT/dt °C/s" (rate of temperature change)
-- **Note**: For better LaTeX rendering, consider using `$^\circ$` instead of `$^{\text{o}}$` for the degree symbol
+
+**Best Practice Note**: While the code uses `^{\text{o}}` for the degree symbol, the standard and recommended LaTeX syntax is `^\circ` which produces a proper degree symbol (°). Both will render visually, but `^\circ` is the conventional approach.
 
 ## Overall Purpose
 
