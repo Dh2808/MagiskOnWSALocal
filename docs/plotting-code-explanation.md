@@ -106,6 +106,8 @@ plt.ylabel(r'$\frac{dT}{dt}$ $^{\text{o}}\text{C/s}$')
 
 **Best Practice Note**: While the code uses `^{\text{o}}` for the degree symbol, the standard and recommended LaTeX syntax is `^\circ` which produces a proper degree symbol (°). Both will render visually, but `^\circ` is the conventional approach.
 
+**Additional Note**: The code uses two separate math mode blocks (`$...$` `$...$`). A better practice is to combine them into a single math mode block with proper spacing: `r'$\frac{dT}{dt}\,^\circ\text{C/s}$'` where `\,` adds a thin space between the derivative and the units.
+
 ## Overall Purpose
 
 This code creates a plot that:
